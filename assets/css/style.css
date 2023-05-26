@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLES */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -6,12 +7,11 @@
 
 body {
 	background-color: #d9dcd6;
-	font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS",
-		sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 	color: #fff;
 }
 
-/* Header */
+/* HEADER SECTION - nav bar, page links */
 header {
 	padding: 20px;
 	background-color: #2a607c;
@@ -45,7 +45,12 @@ a {
 	text-decoration: none;
 }
 
-/* Hero Image */
+a:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+/* HERO IMAGE */
 .hero {
 	height: 800px;
 	width: 100%;
@@ -55,7 +60,7 @@ a {
 	background-position: center;
 }
 
-/* Main Content */
+/* MAIN CONTENT - includes content cards */
 .content {
 	width: 75%;
 	margin-left: 20px;
@@ -79,6 +84,7 @@ h2 {
 	font-size: 36px;
 }
 
+/* Content Card Img Positioning */
 .float-left {
 	float: left;
 	margin-right: 25px;
@@ -89,7 +95,7 @@ h2 {
 	margin-left: 25px;
 }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
 	margin-right: 20px;
 	padding: 20px;
@@ -115,7 +121,7 @@ h3 {
 	max-width: 150px;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
 	padding: 30px;
 	clear: both;
